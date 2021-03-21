@@ -8,6 +8,7 @@ html, body {
   height: 100%;
   width: 100%;
   font-family: 'Blinker', sans-serif;
+  background-color: #f5f5f5;
 }
 
 /* Nav Bar */
@@ -69,6 +70,10 @@ html, body {
   background-color: #4599db;
   border: 1px solid #4599db;
 }
+
+
+/* Three Column */
+
 
 
 /* Fixed Section */
@@ -188,7 +193,7 @@ figure {
 
 /* Footer */
 footer {
-  background-color: #353f46; /*colore molto simile allo standard navbar-dark*/
+  background-color: #343a40; /*colore molto simile allo standard navbar-dark*/
   color: #d5d5d5;
   margin-top: 2rem;
 }

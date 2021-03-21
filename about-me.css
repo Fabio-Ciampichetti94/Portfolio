@@ -3,3 +3,74 @@
   padding: 0;
   box-sizing: border-box;
 }
+html, body {
+  height: 100%;
+  width: 100%;
+  font-family: 'Blinker', sans-serif;
+  background-color: #f5f5f5;
+}
+
+/* Nav Bar */
+.navbar {
+  padding: .8rem;
+}
+.navbar-nav li {
+  padding-right: 10px;
+}
+.nav-link {
+  font-size: 1.1em !important;
+}
+.name {
+  text-decoration: none;
+  color: #d3d3d3;
+  font-size: 1.5rem;
+  margin-left: 1rem;
+}
+.name:hover {
+  text-decoration: none;
+  color: white;
+}
+.fa-home, .fa-folder, .fa-user {
+  margin-right: .5rem;
+}
+
+
+/* Personal Section */
+#to-me {
+  height: 33em;
+  padding-top: 4rem;
+}
+img {
+  height: 12rem;
+  width: 16rem;
+}
+#text {
+  padding-top: 2rem;
+}
+
+
+
+
+
+
+
+/* Footer */
+footer {
+  background-color: #343a40; /*colore molto simile allo standard navbar-dark*/
+  color: #d5d5d5;
+}
+.row {
+  padding: .9rem;
+}
+.personal > a {
+  text-decoration: none;
+  color: #d3d3d3;
+}
+.personal > a:hover {
+  text-decoration: none;
+  color: white;
+}
+.footer-name {
+  color: #d3d3d3;
+  font-size: .8rem;
+}
