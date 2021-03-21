@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet"
+          href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+          integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2"
+          crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Blinker:wght@100;200;300;400&display=swap"
+          rel="stylesheet">
+    <!-- Spazio per il Link del Font -->
+    <title>Portfolio Fabio Ciampichetti</title>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+            integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+            crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+            integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+            crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js"
+            integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s"
+            crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/581a5ff988.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="Portfolio.css">
+  </head>
+  <body>
+
+  <!-- Bar Navigation -->
+  <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+    <div class="container-fluid">
+       <a class="name" href="#">FABIO CIAMPICHETTI</a>
+       <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarResponsive"
+              type="button" name="button">
+         <span class="navbar-toggler-icon"></span>
+       </button>
+       <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link voice" href="#"><i class="fa fa-home"></i>Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link voice" href="#"><i class="fas fa-folder"></i>Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link voice" href="#"><i class="fas fa-user"></i>About</a>
+            </li>
+            <li class="nav-item">
+              <!-- spazio del code sul blocco note -->
+              <button type="button" class="btn btn-secondary btn.lg">Contact</button>
+            </li>
+          </ul>
+        </div>
+     </div>
+   </nav>
+
+   <!-- Central Image -->
+   <div id="slides" class="carousel slide" data-ride="carousel">
+     <ul class="carousel-indicators">
+       <li data-target="#slides" data-slide-to="0" class="active"></li>
+     </ul>
+     <div class="carousel-inner">
+       <div class="carousel-item active">
+         <img src="C:\Users\Fabio\Desktop\Portfolio\desk-1.jpg">
+         <div class="carousel-caption">
+           <h3>Hi Everyone, I'm</h3>
+           <h1>FABIO CIAMPICHETTI</h1>
+           <h3>Web Devoloper Student from Start2Impact</h3>
+           <button type="button" class="btn btn-primary btn.lg">View My Work</button>
+         </div>
+       </div>
+     </div>
+     <hr class="my-4">
+     </div>
+
+     <!-- Three Column -->
+     <div class="container-fluid padding">
+       <div class="row padding">
+          <div class="col-lg-4">
+             <h2>About Me</h2>
+             <p>Mi presento, sono Fabio Ciampichetti, un web developer junior. Ho
+             molte passioni, dallo sport ai fumetti, come si può vedere anche
+             dalle foto qui di fianco. Conosco il mondo dell'informatica già dalle
+             superiori, ho studiato informatica base e del linguaggio C++. Ora
+             ho approfondito
+             Mi reputo una persona ambiziosa e che si impegna al 100% in tutto quello
+             che fa, mi reputo inoltre una persona solare e che è pronto sempre
+             ad aiutare il prossimo. </p>
+             <br>
+             <a href="#" class="btn btn-primary">More Information</a>
+          </div>
+          <div class="col-lg-4">
+            <img src="C:\Users\Fabio\Desktop\Portfolio\sport.jpg" class="img-fluid">
+          </div>
+          <div class="col-lg-4">
+            <img src="C:\Users\Fabio\Desktop\Portfolio\comics3.jpg" class="img-fluid">
+          </div>
+        </div>
+      </div>
+      <hr class="my-4">
+
+      <!-- Fixed Section -->
+      <div class="container-fluid padding">
+        <div class="row text-center padding">
+          <div class="col-12">
+            <h2>My Skills</h2>
+          </div>
+         </div>
+        </div>
+      <figure>
+        <div class="fixed-wrap">
+          <div id="fixed">
+          </div>
+        </div>
+      </figure>
+
+      <!-- Skill Acquisite -->
+      <button class="skill" type="button" data-toggle="collapse" data-target="#skill">
+      Click for Skill</button>
+      <div id="skill" class="collapse">
+        <div class="container-fluid padding">
+          <div class="row text-center">
+            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3">
+              <i class="fas fa-code"></i>
+              <h2>HTML5</h2>
+              <p>Ho conoscenze Base di Html5</p>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3">
+              <i class="fab fa-css3"></i>
+              <h2>CSS3</h2>
+              <p>Ho conoscenze Base di CSS3</p>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3">
+              <i class="fas fa-bold"></i>
+              <h2>Bootstrap</h2>
+              <p>Ho conoscenze Base di Bootstrap</p>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3">
+              <i class="fab fa-js-square"></i>
+              <h2>Javascript</h2>
+              <p>Sto attualmente imparando le nozioni base di Javascript</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <hr class="my-4">
+
+      <!-- Connect -->
+      <div class="container-fluid padding">
+        <div class="row text-center padding">
+          <div class="col-12">
+            <h2>Connect</h2>
+          </div>
+          <div class="col-12 social padding">
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-google-plus-g"></i></a>
+            <a href="#"><i class="fab fa-telegram-plane"></i></a>
+          </div>
+         </div>
+       </div>
+
+       <!-- Footer -->
+       <footer class="container-fluid padding">
+         <div class="row justify-content-center">
+           <p class="personal">Email: <a href="#">fabio.ciampichetti@gmail.com</a></p>
+         </div>
+         <div class="row justify-content-center">
+           <p class="footer-name">&COPY; FABIO CIAMPICHETTI</p>
+         </div>
+       </footer>
+
+  </body>
+</html>
