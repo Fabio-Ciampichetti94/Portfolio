@@ -151,9 +151,6 @@ figure {
 }
 
 
-
-
-
 /* Connect */
 .padding {
   padding-top: .4em;
@@ -166,25 +163,25 @@ figure {
 .fa-facebook {
   color: #3b5998;
 }
-.fa-google-plus-g {
-  color: #dd4b39;
+.fa-facebook:hover {
+  color: #3494df;
 }
 .fa-instagram {
   color: #37b9ec;
 }
-.fa-telegram-plane {
-  color: #3a96ca;
-}
-.fa-facebook:hover {
-  color: #3494df;
-}
-.fa-google-plus-g:hover {
-  color: #e60000;
-}
 .fa-instagram:hover {
   color: #6a5acd;
 }
-.fa-telegram-plane:hover {
+.fa-envelope {
+  color: #dd4b39;
+}
+.fa-envelope:hover {
+  color: #e60000;
+}
+.fa-linkedin {
+  color: #3a96ca;
+}
+.fa-linkedin:hover {
   color: #3b5998;
 }
 
