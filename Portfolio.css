@@ -10,7 +10,6 @@ html, body {
   font-family: 'Blinker', sans-serif;
 }
 
-
 /* Nav Bar */
 .navbar {
   padding: .8rem;
@@ -126,6 +125,33 @@ figure {
   font-size: 4em;
   margin-bottom: .7rem;
 }
+
+
+/* Mission */
+.padding {
+  padding-top: .4em;
+  padding-bottom: .9em;
+}
+.row h2 {
+  margin-bottom: 1em;
+  margin-top: 0;
+}
+.fa-graduation-cap {
+  color: #0063b6;
+}
+.fa-leaf {
+  color: #3a925e;
+}
+.fa-globe-europe {
+  color: #353f46;
+}
+.fa-graduation-cap, .fa-leaf, .fa-globe-europe {
+  font-size: 3em;
+  margin-bottom: 1rem;
+}
+
+
+
 
 
 /* Connect */
